@@ -46,3 +46,17 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+# Ignore Oracle JDK
+EX1/lib/oracleJdk-27/
+
+# Ignore Flutter build files
+build/
+.dart_tool/
+.packages
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore generated files
+*.log
